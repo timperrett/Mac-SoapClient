@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Accept</string>
+	<string>Accept-Language</string>
+	<string>Accept-Encoding</string>
+	<string>Cache-Control</string>
+	<string>Cookie</string> 
+	<string>Connection</string>
+	<string>Content-Length</string>
+	<string>Content-Type</string> 
+	<string>From</string> 
+	<string>Host</string>
+	<string>If-Match</string>
+	<string>If-Modified-Since</string>
+	<string>If-None-Match</string>
+	<string>If-Range</string>
+	<string>If-Unmodified-Since</string>
+	<string>Pragma</string>
+	<string>User-Agent</string> 
+</array>
+</plist>

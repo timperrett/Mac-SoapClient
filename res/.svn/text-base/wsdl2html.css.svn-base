@@ -1,0 +1,38 @@
+body { 
+	font:11px LucidaGrande,Verdana,sans-serif; 
+	background-color:#f0f5f9;
+}
+
+table { 
+	width:100%; 
+}
+
+th { 
+	font-size:11px;
+	text-align:right;
+	font-weight:normal;
+	text-wrap:none;
+	min-width:80px;
+}
+
+table.operationTable > tr > th {
+	max-width:80px;
+}
+
+td { 
+	font-size:11px; 
+	width:100%; 
+}
+
+input[type="text"] { 
+	width:100%; 
+}
+
+.submitWrap { 
+	text-align:right;
+	padding-right:3px; 
+}
+
+#serviceRow * { 
+	padding-bottom:7px;
+}

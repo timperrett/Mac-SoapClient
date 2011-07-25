@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/17/trunk/English.lproj
+END
+InfoPlist.strings
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/17/trunk/English.lproj/InfoPlist.strings
+END
+Credits.rtf
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/14/trunk/English.lproj/Credits.rtf
+END
+PreferenceWindow.xib
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/5/trunk/English.lproj/PreferenceWindow.xib
+END
+MainMenu.xib
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/14/trunk/English.lproj/MainMenu.xib
+END
+WSDLViewWindow.xib
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/5/trunk/English.lproj/WSDLViewWindow.xib
+END
+SCWindow.xib
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/5/trunk/English.lproj/SCWindow.xib
+END

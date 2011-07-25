@@ -1,0 +1,216 @@
+
+Object.prototype.getType = function() {
+	return typeof this;
+};
+
+function MyBoolean(value) {
+	this.value = value;
+}
+
+MyBoolean.prototype.toString = function() {
+	return this.value.toString();
+};
+
+MyBoolean.prototype.getType = function() {
+	return "MyBoolean";
+};
+
+function CustomType() {
+	this.__keys = "";
+}
+
+CustomType.prototype.getType = function() {
+	return "CustomType";
+};
+
+function $(id) { 
+	return document.getElementById(id); 
+}
+
+function selectedMethod() {
+	var select = $("methodSelect");
+	return select.options[select.options.selectedIndex].value;
+}
+
+function methodPopupChanged(evt) {
+	methodChanged();
+	App.wasEdited();
+}
+
+function methodChanged() {
+	var method = selectedMethod();
+	var div = $("settingsWrap");
+	var child, id;
+	for (var i = 0; i != div.childNodes.length; i++) {
+		child = div.childNodes[i];
+		if (child.nodeType == Node.ELEMENT_NODE) {
+			id = method + "-wrap";
+			child.style.display = (child.id == id) ? "" : "none";
+		}
+	}
+}
+
+function submitClicked() {
+	save();
+	App.doExecute();
+}
+
+function formSubmitted(evt) {
+	App.execute(evt.target);
+}
+
+var method;
+var params;
+var order;
+var types;
+var paramsWrap;
+var currentUid;
+var customObj;
+var customObjs;
+
+function createJsCommand() {
+	method = selectedMethod();
+	params = {};
+	order = [];
+	types = [];
+	currentUid = null;
+	customObj  = null;
+	customObjs = [];
+	paramsWrap = $(method+"-params-wrap");
+	if (paramsWrap) {
+		
+		var fields = paramsWrap.getElementsByTagName("input");
+		var field, dataType, value;
+		for (var i = 0; i != fields.length; i++) {
+			field = fields[i];
+			
+			//get value
+			dataType = field.getAttribute("placeholder");
+			dataType = dataType.substring(dataType.lastIndexOf(":")+1);
+			types.push(dataType);
+			value = getValueFromField(field, dataType);
+
+			var uid = field.getAttribute("uid");
+			if (uid) {
+				doCustomObjectForField(field, uid, value);
+			} else {
+				order.push(field.name);
+				params[field.name] = value;
+			}
+		}
+	}
+	var cmd = {
+		method: method,
+		endpointURI: $(method+"-endpointUri").value,
+		bindingStyle: $(method+"-bindingStyle").value.replace(/\s*/g, ""),
+		SOAPAction: $(method+"-soapAction").value,
+		namespace: $(method+"-namespace").value,
+		parameters: params,
+		order: order,
+		types: types
+	};
+	return cmd;
+}
+
+function doCustomObjectForField(field, uid, value) {
+	var name = field.name;
+	App.log("name: " + name);
+	App.log("found a custom Type! uid:"+uid);
+
+	var chunks = name.split(".");
+	for (var i = 0; i < chunks.length; i++) {
+		
+		var __typeName = chunks[i];
+		var __typePrefix = field.getAttribute("typePrefix");
+		var __typeUri = field.getAttribute("typeUri");
+		var __localName = field.getAttribute("localName");
+		var propName = chunks[i];
+		App.log("propName: " + propName);
+	
+		if (currentUid != uid) {
+			App.log("adding customObj");
+			customObj = new CustomType();
+			if (customObjs.length) {
+				customObjs[customObjs.length-1][propName] = customObj;
+				//customObjs.push(customObj);
+			} else {
+				var o = customObjs.pop();
+				if (o) {
+					customObj = o;
+				}
+				
+				customObjs.push(customObj);
+				order.push(uid);
+				params[uid] = customObj
+				currentUid = uid;
+			}
+		}
+		customObj["__typeName"] 	= __typeName;
+		customObj["__prefix"] 		= __typePrefix;
+		customObj["__localName"] 	= __localName;
+		customObj["__namespaceUri"] = __typeUri;
+		customObj["__typeName"] 	= __typeName;
+		customObj[propName] 		= value;
+		customObj.__keys += (customObj.__keys.length ? "," : "" ) + propName;
+		var lastItem = order[order.length-1];
+		App.log(customObj);
+	}
+	
+}
+
+
+function getValueFromField(field, dataType) {
+	var value = field.value;
+	if ("int" == dataType || "integer" == dataType) {
+		value = parseInt(value);
+	} else if ("float" == dataType || "decimal" == dataType || "double" == dataType) {
+		value = parseFloat(value);
+	} else if ("boolean" == dataType || "bool" == dataType) {
+		value = new MyBoolean(value);
+	}
+	return value;
+}
+
+function bodyLoaded(evt) {
+	if (window.Command) {
+		var method = Command.method();
+		var select = $("methodSelect");
+		var option;
+		for (var i = 0; i != select.options.length; i++) {
+			option = select.options[i];
+			if (option.value == method) {
+				select.options.selectedIndex = i;
+				methodChanged();
+				break;
+			}
+		}
+		$(method+"-endpointUri").value = Command.endpointURI();
+		$(method+"-bindingStyle").value = Command.bindingStyle();
+		$(method+"-namespace").value = Command.namespace();
+		$(method+"-soapAction").value = Command.soapAction();
+		var params = Command.params();
+		var paramOrder = Command.paramOrder();
+		var id;
+		for (var i = 0; i != paramOrder.length; i++) {
+			id = paramOrder[i];
+			$(method+"-"+id).value = Command.paramValueForKey(id);
+		}
+	}
+}
+
+function save() {
+	App.consumeJsCommand(createJsCommand());
+}
+
+function inputElementChanged(evt) {
+	var keyCode = evt.keyCode;
+	var metaKey = evt.metaKey;
+	//App.log("keyCode: " + keyCode);
+	// do not mark cmd-a and cmd-c keypresses as causing an edit
+	if (!metaKey) {
+		if (keyCode == 8 || (keyCode > 32 && keyCode < 256)) {
+			App.wasEdited();
+		}
+	}
+	return true;
+}

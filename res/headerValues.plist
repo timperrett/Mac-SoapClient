@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>user-agent</key>
+	<array>
+
+		<string>Safari v125 on Mac OS X --- Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/124 (KHTML, like Gecko) Safari/125</string>
+		<string>Safari v125 on Mac OS X, cloaked as MSIE --- Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2)</string>
+		<string>Safari v312 on Mac OS X --- Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en-us) AppleWebKit/312.1 (KHTML, like Gecko) Safari/312</string>
+		<string>Safari 2.0 (v412) on Mac OS X --- Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en-us) AppleWebKit/412 (KHTML, like Gecko) Safari/412</string>
+		<string>Safari 2.0 (v418) on Mac OS X ---  Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en) AppleWebKit/418 (KHTML, like Gecko) Safari/417.9.2</string>
+
+		<string>Firefox 1.0 (Dutch) on Windows XP --- Mozilla/5.0 (Windows; U; Windows NT 5.1; nl-NL; rv:1.7.5) Gecko/20041202 Firefox/1.0</string>
+		<string>Firefox 1.0.4 on Ubuntu Linux, on AMD64 --- Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.7.6) Gecko/20050512 Firefox</string>
+		<string>Firefox 1.0.4 on FreeBSD 5.4 on i386 --- Mozilla/5.0 (X11; U; FreeBSD i386; en-US; rv:1.7.8) Gecko/20050609 Firefox/1.0.4</string>
+		<string>Firefox 1.0.5 on Slackware --- Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.9) Gecko/20050711 Firefox/1.0.5</string>
+		<string>Firefox 1.0.6 on Windows XP --- Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7.10) Gecko/20050716 Firefox/1.0.6</string>
+		<string>Firefox 1.0.6 on Mac OS X 10.4 PPC --- Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-GB; rv:1.7.10) Gecko/20050717 Firefox/1.0.6</string>
+		<string>Firefox 1.0.7 on Windows XP --- Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7.12) Gecko/20050915 Firefox/1.0.7</string>
+		<string>Firefox 1.0.7 on Mac OS X 10.3 PPC --- Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.7.12) Gecko/20050915 Firefox/1.0.7</string>
+		<string>Firefox 1.5b1 on Windows XP --- Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8b4) Gecko/20050908 Firefox/1.4</string>
+		<string>Firefox 1.5b1 on Mac OS X 10.3 PPC --- Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.8b4) Gecko/20050908 Firefox/1.4</string>
+		<string>Firefox 1.5 on Windows XP --- Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8) Gecko/20051107 Firefox/1.5</string>
+		<string>Firefox 1.5.0.1 on Windows XP --- Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.8.0.1) Gecko/20060111 Firefox/1.5.0.1</string>
+		<string>Firefox 1.5.0.1 on Windows Vista --- Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.8.0.1) Gecko/20060111 Firefox/1.5.0.1</string>
+		<string>Firefox 1.5.0.2 on Ubuntu Linux --- Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.0.2) Gecko/20060308 Firefox/1.5.0.2</string>
+		<string>Firefox 2.0a1 on Windows XP --- Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8) Gecko/20060321 Firefox/2.0a1</string>
+
+		<string>IE 1.0 on Windows 95 --- Microsoft Internet Explorer/4.0b1 (Windows 95)</string>
+		<string>IE 1.5 on Windows NT --- Mozilla/1.22 (compatible; MSIE 1.5; Windows NT)</string>
+		<string>IE 2.0 on Windows 95 --- Mozilla/1.22 (compatible; MSIE 2.0; Windows 95)</string>
+		<string>IE 3.01 on Windows 98 --- Mozilla/2.0 (compatible; MSIE 3.01; Windows 98)</string>
+		<string>IE 5.0 on SunOS --- Mozilla/4.0 (compatible; MSIE 5.0; SunOS 5.9 sun4u; X11)</string>
+		<string>IE 5.1.7 on Mac OS 9 --- Mozilla/4.0 (compatible; MSIE 5.17; Mac_PowerPC)</string>
+		<string>IE 5.2.3 on Mac OS X --- Mozilla/4.0 (compatible; MSIE 5.23; Mac_PowerPC)</string>
+		<string>IE 5.5 on Windows 2000 --- Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 5.0)</string>
+		<string>IE 6.0 in MSN 2.5 on Windows 98 --- Mozilla/4.0 (compatible; MSIE 6.0; MSN 2.5; Windows 98)</string>
+		<string>IE 6.0 on Windows XP SP2 --- Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)</string>
+		<string>IE 6.0 on Windows XP SP2 with .NET Framework 1.1 installed --- Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)</string>
+		<string>IE 6.0 on Windows XP Media Center Edition 2005 with .NET Framework 1.0, 1.1, and 2.0 installed --- Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.0.3705; .NET CLR 1.1.4322; Media Center PC 4.0; .NET CLR 2.0.50727)</string>
+		<string>IE 6.0 on Windows Server 2003 SP1 with .NET Framework 1.1 installed --- Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; SV1; .NET CLR 1.1.4322)</string>
+		<string>IE 7.0 beta running on Windows XP --- Mozilla/4.0 (compatible; MSIE 7.0b; Windows NT 5.1)</string>
+		<string>IE 7.0 beta 1 running on Windows XP --- Mozilla/4.0 (compatible; MSIE 7.0b; Win32)</string>
+		<string>IE 7.0 beta running on Windows Vista --- Mozilla/4.0 (compatible; MSIE 7.0b; Windows NT 6.0)</string>
+
+		<string>Netscape Navigator 2.02 on OS/2 with option -3 --- Mozilla/3.0 (OS/2; U)</string>
+		<string>Netscape Navigator 3.0 on SunOS with weak security --- Mozilla/3.0 (X11; I; SunOS 5.4 sun4m)</string>
+		<string>Netscape Navigator 4.61 on Macintosh with weak security --- Mozilla/4.61 (Macintosh; I; PPC)</string>
+		<string>Netscape Navigator 4.61 on OS/2 with strong security --- Mozilla/4.61 [en] (OS/2; U)</string>
+		<string>Netscape Navigator 4.7 on Macintosh --- Mozilla/4.7C-CCK-MCD {C-UDP; EBM-APPLE} (Macintosh; I; PPC)</string>
+		<string>Netscape Navigator 4.8 on Windows 2000 --- Mozilla/4.8 [en] (Windows NT 5.0; U)</string>
+		<string>Netscape Navigator 6.1 on Windows 2000 --- Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:0.9.2) Gecko/20020508 Netscape6/6.1</string>
+		<string>Netscape Navigator 7 on Sun Solaris 8 --- Mozilla/5.0 (X11; U; SunOS sun4u; en-US; rv:1.0.1) Gecko/20020920 Netscape/7.0</string>
+		<string>Netscape Navigator 7.1 on Windows XP --- Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.4) Gecko/20030624 Netscape/7.1 (ax)</string>
+		<string>Netscape Navigator 8.0.1 on Windows XP using Gecko --- Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7.5) Gecko/20050519 Netscape/8.0.1</string>
+		<string>Netscape Navigator 8.0.1 on Windows XP using MSHTML (with .NET installed) --- Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50215) Netscape/8.0.1</string>
+		<string>Netscape Navigator 8.1 on Windows XP using Gecko (with .NET installed) --- Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7.5) Gecko/20060127 Netscape/8.1</string>
+
+		<string>OmniWeb 5.1.1 (v563.51) on Mac OS X --- Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en-US) AppleWebKit/125.4 (KHTML, like Gecko, Safari) OmniWeb/v563.51</string>
+		<string>OmniWeb 5.1.2 beta 1 (v563.57) on Mac OS X --- Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en-US) AppleWebKit/125.4 (KHTML, like Gecko, Safari) OmniWeb/v563.57</string>
+
+		<string>Camino 1.0b1 on Mac OS X --- Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en-US; rv:1.8) Gecko/20051107 Camino/1.0b1</string>
+		<string>Camino 1.0 on Mac OS X --- Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.8.0.1) Gecko/20060214 Camino/1.0</string>
+
+		<string>Opera 6.03 on Windows 2000, cloaked as MSIE --- Mozilla/4.0 (compatible; MSIE 5.0; Windows 2000) Opera 6.03 [en]</string>
+		<string>Opera 6.03 on Mac OS 9, cloaked as MSIE --- Mozilla/4.0 (compatible; MSIE 5.0; Mac_PowerPC) Opera 6.0 [en]</string>
+		<string>Opera 7.23 on Windows 98 --- Opera/7.23 (Windows 98; U) [en]</string>
+		<string>Opera 8.00 on Windows XP --- Opera/8.00 (Windows NT 5.1; U; en)</string>
+		<string>Opera 8.00 on Gentoo Linux --- Opera/8.0 (X11; Linux i686; U; cs)</string>
+		<string>Opera 8.02 on Windows XP --- Opera/8.02 (Windows NT 5.1; U; en)</string>
+		<string>Opera 8.50 on Windows XP --- Opera/8.50 (Windows NT 5.1; U; en)</string>
+		<string>Opera 8.50 on Windows XP, cloaked as MSIE --- Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera 8.50</string>
+		<string>Opera 8.50 on Windows XP, cloaked as Mozilla --- Mozilla/5.0 (Windows NT 5.1; U; en) Opera 8.50</string>
+		<string>Opera 8.50 on Gentoo Linux --- Opera/8.5 (X11; Linux i686; U; cs)</string>
+		<string>Opera 8.50 on Nokia 6630 (in Spanish) --- Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; Nokia 6630/4.03.38; 6937) Opera 8.50 [es]</string>
+		<string>Opera 8.51 on Windows XP --- Opera/8.51 (Windows NT 5.1; U; en)</string>
+		<string>Opera 9.00 Preview 1 on Windows 2000, cloaked as Opera --- Opera/9.0 (Windows NT 5.0; U; en)</string>
+		<string>Opera 9.00 Preview 2 on Mac OS X --- Opera/9.00 (Macintosh; PPC Mac OS X; U; en)</string>
+
+		<string>Lynx 2.8.4rel.1 on Linux --- Lynx/2.8.4rel.1 libwww-FM/2.14</string>
+
+	</array>
+	<key>connection</key>
+	<array>
+		<string>close</string>
+		<string>keep-alive</string>
+	</array>
+	<key>accept</key>
+	<array>
+		<string>*/*</string>
+		<string>text/plain</string>
+		<string>text/html</string>
+		<string>text/plain, text/html</string>
+		<string>application/xml</string>
+	</array>
+
+	<key>accept-language</key>
+	<array>
+		<string>*</string>
+		<string>en</string>
+		<string>es</string>
+		<string>de</string>
+		<string>fr</string>
+	</array>
+
+	<key>accept-encoding</key>
+	<array>
+		<string>gzip, deflate</string>
+		<string>gzip</string>
+		<string>deflate</string>
+	</array>
+
+	<key>cache-control</key>
+	<array>
+		<string>cache</string>
+		<string>no-cache</string>
+	</array>
+
+	<key>pragma</key>
+	<array>
+		<string>cache</string>
+		<string>no-cache</string>
+	</array>
+
+	<key>content-type</key>
+	<array>
+		<string>application/octet-stream</string>
+		<string>application/x-www-form-urlencoded</string>
+		<string>application/xml</string>
+		<string>text/html</string>
+		<string>text/plain</string>
+		<string>text/xml</string>
+	</array>
+
+	<key>if-match</key>
+	<array>
+		<string>*</string>
+	</array>
+
+	<key>if-none-match</key>
+	<array>
+		<string>*</string>
+	</array>
+
+
+</dict>
+</plist>
+
+<!--
+	<key>XXX</key>
+	<array>
+		<string>XXX</string>
+		<string>XXX</string>
+		<string>XXX</string>
+		<string>XXX</string>
+		<string>XXX</string>
+		<string>XXX</string>
+	</array>
+-->

@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/!svn/ver/17/trunk/src
+END
+MyBoolean.m
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/src/MyBoolean.m
+END
+PrettyPrinter.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/src/PrettyPrinter.h
+END
+PrettyPrinter.m
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/11/trunk/src/PrettyPrinter.m
+END
+SCDocument.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/src/SCDocument.h
+END
+BaseWindowController.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/src/BaseWindowController.h
+END
+WSDLViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/src/WSDLViewController.h
+END
+BorderView.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/src/BorderView.h
+END
+SCDocument.m
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/14/trunk/src/SCDocument.m
+END
+ComplexType.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/src/ComplexType.h
+END
+BaseWindowController.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/src/BaseWindowController.m
+END
+WSDLViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/src/WSDLViewController.m
+END
+BorderView.m
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/src/BorderView.m
+END
+ComplexType.m
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/14/trunk/src/ComplexType.m
+END
+WSDLParsingService.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/src/WSDLParsingService.h
+END
+SOAPServiceWSCoreImpl.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/src/SOAPServiceWSCoreImpl.h
+END
+MySOAPUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/src/MySOAPUtils.h
+END
+SimpleType.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/src/SimpleType.h
+END
+SOAPServiceWSCoreImpl.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/14/trunk/src/SOAPServiceWSCoreImpl.m
+END
+MySOAPUtils.m
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/14/trunk/src/MySOAPUtils.m
+END
+SimpleType.m
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/src/SimpleType.m
+END
+SOAPCommand.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/src/SOAPCommand.h
+END
+WSDLParsingServiceLibxsltImpl.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/2/trunk/src/WSDLParsingServiceLibxsltImpl.h
+END
+SOAPCommand.m
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/src/SOAPCommand.m
+END
+WSDLParsingServiceLibxsltImpl.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/17/trunk/src/WSDLParsingServiceLibxsltImpl.m
+END
+SCController.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/14/trunk/src/SCController.h
+END
+SCController.m.bak
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/src/SCController.m.bak
+END
+AppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/7/trunk/src/AppDelegate.h
+END
+NSDictionary+HTTPHeaders.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/src/NSDictionary+HTTPHeaders.h
+END
+SCController.m
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/17/trunk/src/SCController.m
+END
+AppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/17/trunk/src/AppDelegate.m
+END
+NSDictionary+HTTPHeaders.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/14/trunk/src/NSDictionary+HTTPHeaders.m
+END
+PreferenceController.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/src/PreferenceController.h
+END
+SOAPService.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/src/SOAPService.h
+END
+MyBoolean.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/src/MyBoolean.h
+END
+PreferenceController.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/src/PreferenceController.m
+END
